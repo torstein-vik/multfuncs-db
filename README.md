@@ -40,5 +40,8 @@ This framework is and will remain completely open source, under the GNU General 
 
 ## Languages/Frameworks
 
+* Database: [MongoDB](https://github.com/mongodb/mongo)
+* Interface with database: [MMT](https://github.com/UniFormal/MMT)
+
 ## Folder structure
 
