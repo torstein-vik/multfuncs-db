@@ -1,2 +1,3 @@
-# multfuncs-db
-Framework for a database of multiplicative functions 
+# Multiplicative Function Database
+***Framework for a database of multiplicative functions*** <p>
+
