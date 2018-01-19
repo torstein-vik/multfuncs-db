@@ -45,3 +45,5 @@ This framework is and will remain completely open source, under the GNU General 
 
 ## Folder structure
 
+* /doc/ -- Documentation of the database
+* /doc/schema/ -- JSON Schema for the database
