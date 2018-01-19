@@ -17,6 +17,10 @@ git clone "https://github.com/torstein-vik/multfuncs-db"
 *There are no features yet*
 
 ## Contributors
+
+_Ask Torstein ([torsteinv64@gmail.com](mailto:torsteinv64@gmail.com)) to add you here if you contribute to this project_
+* Torstein Vik
+
 ## Copyright
 
 
