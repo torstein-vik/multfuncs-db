@@ -11,11 +11,6 @@ There is nothing to install yet, but you can clone this repo to your computer if
 git clone "https://github.com/torstein-vik/multfuncs-db"
 ```
 
-## Current features
-*There are no features yet*
-## Usage Examples
-*There are no features yet*
-
 ## Contributors
 
 _Ask Torstein ([torsteinv64@gmail.com](mailto:torsteinv64@gmail.com)) to add you here if you contribute to this project_
