@@ -44,7 +44,7 @@ This article is open source, under the GNU General Public License version 3+:
 
 ## Languages/Frameworks
 
-* Database: [MongoDB](https://github.com/mongodb/mongo)
+* Database technology: [MongoDB](https://github.com/mongodb/mongo)
 * Interface with database: [MMT](https://github.com/UniFormal/MMT)
 
 ## Folder structure
