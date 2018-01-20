@@ -1,0 +1,46 @@
+\section{Foundational Features for Integrating Data and Computation}
+
+\subsection{Unknown Values}
+
+We introduce a new feature for unknown values $?_A$ of type $A$.
+These represent meaningful but unknown values.
+
+This is similar to exceptions, undefined values, or option types except that there is no implication that the original expression is invalid.
+Instead, the original expression is well-typed and well-defined, but its concrete value is not known.
+(This is similar to Scala's $???$.)
+
+$?_A$ can only occur in definitions.
+Definition expansion fails if simplification would eventually encounters a term of the form $?_A$.
+
+Challenges:
+\begin{itemize}
+ \item $?_A$ does not respect congruence.
+ \item Where exactly can $?_A$ occur?
+ \item How can we predict whether definition expansion should be allowed? For example, might contain $?_A$ but never fail for the argument at hand.
+\end{itemize}
+
+\subsection{Persistent Memoization of Functions}
+
+We allow any function $f:A \to B$ to be coupled with a table of values, i.e., pairs $(a,b)\in A\times B$ such that $f(a)=b$.
+
+These can be stored in a database.
+
+Virtual theories and persistent memoization are the two key concepts to combine mathematical computation and data.
+They correspond to the efficient storage of sets and maps.
+
+Challenges:
+\begin{itemize}
+ \item What is the content representation of a tabled function?
+ \item How are functions associated with databases?
+ \item How is lookup done if the argument is not normalized?
+ \item If we think of $\to$ as an abstract class (like in Scala), we can create memoized functions as special cases.
+ Then memoization could be a more general concept that allows storing arbitrary lists of objects.
+\end{itemize}
+
+\subsection{Exceptional Values}
+
+This is similar to memoization of functions except that the given values supersede the result of the function.
+
+This can be represented as a record $(exc: A \to bool, f: A \to B, V: Set[A*B])$.
+Its meaning is the function which maps $x:A$ to the lookup in $V$ if $exc(x)$ and to $f(x)$ otherwise.
+The set $V$ is then memoized.
