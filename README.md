@@ -24,7 +24,7 @@ _Ask Torstein ([torsteinv64@gmail.com](mailto:torsteinv64@gmail.com)) to add you
 ## Copyright
 
 
-This framework is and will remain completely open source, under the GNU General Public License version 3+:
+This article is open source, under the GNU General Public License version 3+:
 
     Copyright (C) 2017, Torstein Vik and contributors.
 
