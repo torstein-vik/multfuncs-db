@@ -6,9 +6,9 @@
 
 ## Installation
 
-There is nothing to install yet, but you can clone this repo to your computer if you want to contribute
+You can clone this repo to your computer if you want to contribute:
 ```
-git clone "https://github.com/torstein-vik/multfuncs-db"
+git clone "https://github.com/torstein-vik/multfuncs-db.git"
 ```
 
 ## Contributors
