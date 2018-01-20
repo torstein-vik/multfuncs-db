@@ -19,7 +19,12 @@ git clone "https://github.com/torstein-vik/multfuncs-db"
 ## Contributors
 
 _Ask Torstein ([torsteinv64@gmail.com](mailto:torsteinv64@gmail.com)) to add you here if you contribute to this project_
+* Andreas Holmstrøm
+* Michael Kohlhase
+* Dennis Müller
+* Florian Rabe
 * Torstein Vik
+* Tom Wiesing
 
 ## Copyright
 
