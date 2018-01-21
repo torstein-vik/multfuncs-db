@@ -12,6 +12,7 @@
 - _globalTannakianSymbol_: record GlobalTannakianSymbol (see the list of fields below)
 - _functionalEquationParameters_: record FunctionalEquationParameters (see the list of fields below)
 - _etaCombination_: record EtaCombination (see the list of fields below)
+- _logic_: record Logic (see the list of fields below)
  
 ### Fields for Metadata:
 - _\*descriptiveName_: String
@@ -55,7 +56,21 @@
 - _\*elements_: HybridSet[HybridSet[Nat]] (outer hybrid set is element and coefficient, inner hybrid set is q-exponent and eta-exponent)
 - _\*isProven_: Boolean
 
+### Fields for Logic
+- _verbalTheorems_: List[Statement] 
+- _formalTheorems_: List[Statement]
+- _verbalConjectures: List[Statement]
+- _formalConjectures: List[Statement]
+- _automaticallyGeneratedTheorems_: List[Statement]
+- _automaticallyGeneratedConjectures_: List[Statement]
+
 ## Abbreviations
+
+#### Statement:
+Record with fields:
+- statement: String (holding a verbal or MMT-formalized statement about the multiplicative function)
+- proof: String (holding a proof or reference to a proof) 
+- origin: String (describing how this statement was produced) 
 
 #### PrimeLogSymbol:
 HybridSet[RealNumber\*RealNumber]; each element represents the parameters of a PrimeLogFunc, the hybrid set represents a uniform Tannakian symbol
