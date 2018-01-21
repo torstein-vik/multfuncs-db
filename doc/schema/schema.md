@@ -59,8 +59,8 @@
 ### Fields for Logic
 - _verbalTheorems_: List[Statement] 
 - _formalTheorems_: List[Statement]
-- _verbalConjectures: List[Statement]
-- _formalConjectures: List[Statement]
+- _verbalConjectures_: List[Statement]
+- _formalConjectures_: List[Statement]
 - _automaticallyGeneratedTheorems_: List[Statement]
 - _automaticallyGeneratedConjectures_: List[Statement]
 
@@ -68,9 +68,9 @@
 
 #### Statement:
 Record with fields:
-- statement: String (holding a verbal or MMT-formalized statement about the multiplicative function)
-- proof: String (holding a proof or reference to a proof) 
-- origin: String (describing how this statement was produced) 
+- _statement_: String (holding a verbal or MMT-formalized statement about the multiplicative function)
+- _proof_: String (holding a proof or reference to a proof) 
+- _origin_: String (describing how this statement was produced) 
 
 #### PrimeLogSymbol:
 HybridSet[RealNumber\*RealNumber]; each element represents the parameters of a PrimeLogFunc, the hybrid set represents a uniform Tannakian symbol
