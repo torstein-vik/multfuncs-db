@@ -39,8 +39,8 @@
 - _primeLogForm_: PrimeLogSymbol
 - _polynomialForm_: HybridSet[ComplexPolynomial]; each element represents the parameters of a PrimePolynomialFunc, the hybrid set represents a uniform Tannakian symbol
 - _modulusForm_: record with fields:
- - _modulus_: Nat
- - _symbols_: List[PrimeLogSymbol]
+    - _modulus_: Nat
+    - _symbols_: List[PrimeLogSymbol]
 (If multiple exact forms are present, they must agree semantically.)
 
 ### Fields for FunctionalEquationParameters
@@ -69,12 +69,12 @@ Record with fields:
 
 #### ComplexNumber:
 Either of the following
-- A record with fields
- - _re_: RealNumber
- - _im_: RealNumber
- - _abs_: RealNumber (non-negative)
- - _unitarg_: RealNumber (an element of [0,1[ )
-re and im or abs and unitarg must be present. If all 4 are present, they have to represent the same complex number.
+- A record with fields (re and im or abs and unitarg must be present. If all 4 are present, they have to represent the same complex number.)
+    - _re_: RealNumber
+    - _im_: RealNumber
+    - _abs_: RealNumber (non-negative)
+    - _unitarg_: RealNumber (an element of [0,1[ )
+
 - A RealNumber
 
 #### RealNumber: 
